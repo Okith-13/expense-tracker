@@ -1,4 +1,4 @@
-# Flo — Expense Tracker
+# Flow — Expense Tracker
 
 A clean expense tracker built with React. Features authentication, interactive charts, category breakdowns and monthly summaries.
 
