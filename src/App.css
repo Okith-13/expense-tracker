@@ -1,0 +1,36 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  margin-left: 220px;
+  background: var(--cream);
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--ink);
+}
+
+.loading span {
+  font-family: 'DM Serif Display', serif;
+  font-size: 52px;
+  color: var(--cream);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@media (max-width: 640px) {
+  .app-main { margin-left: 0; }
+}

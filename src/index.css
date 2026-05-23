@@ -1,0 +1,60 @@
+:root {
+  --cream: #faf8f4;
+  --sand: #f0ebe0;
+  --stone: #d4c9b5;
+  --ink: #1a1714;
+  --ink-light: #4a4540;
+  --ink-muted: #8a8078;
+  --forest: #2d5016;
+  --forest-light: #3d6b1f;
+  --forest-muted: #e8f0e0;
+  --rose: #c0392b;
+  --rose-light: #e74c3c;
+  --rose-muted: #fbeae8;
+  --amber: #d4820a;
+  --amber-muted: #fef3e2;
+  --teal: #1a6b7a;
+  --teal-muted: #e0f2f5;
+  --purple: #5b3a8e;
+  --purple-muted: #ede8f5;
+  --shadow-sm: 0 1px 3px rgba(26,23,20,0.08);
+  --shadow-md: 0 4px 16px rgba(26,23,20,0.10);
+  --shadow-lg: 0 12px 40px rgba(26,23,20,0.14);
+  --radius: 16px;
+  --radius-sm: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  outline: none;
+}
+
+input, select, textarea {
+  font-family: 'DM Sans', sans-serif;
+  outline: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--sand); }
+::-webkit-scrollbar-thumb { background: var(--stone); border-radius: 3px; }
